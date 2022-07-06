@@ -1,6 +1,8 @@
 package jpaMain;
 
 import shop.domain.Member;
+import shop.domain.Order;
+import shop.domain.OrderItem;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,8 +19,14 @@ public class JpaMain {
         tx.begin();
         try {
 
+            Order order = new Order();
+            em.persist(order);
 
-            tx.commit();
+            OrderItem orderItem = new OrderItem();
+            orderItem.setOrder(order);
+            em.persist(orderItem);
+
+
         }catch (Exception e){
             tx.rollback();
         }finally {
