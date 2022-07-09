@@ -1,5 +1,6 @@
 package jpaMain;
 
+import shop.domain.Book;
 import shop.domain.Member;
 import shop.domain.Order;
 import shop.domain.OrderItem;
@@ -19,13 +20,12 @@ public class JpaMain {
         tx.begin();
         try {
 
-            Order order = new Order();
-            em.persist(order);
+            Book book = new Book();
+            book.setName("JPA");
+            book.setAuthor("James");
 
-            OrderItem orderItem = new OrderItem();
-            orderItem.setOrder(order);
-            em.persist(orderItem);
-
+            em.persist(book);
+            tx.commit();
 
         }catch (Exception e){
             tx.rollback();
