@@ -41,14 +41,13 @@ JPA 기본 강의 관련 연습 프로젝트
 * H2를 Application과 동일한 JVM을 이용하여 구동, Application이 종료되면 Data가 모두 손실(휘발) - 영속적이지 않음
 * 테스트 코드 실행시 휘발성으로 동작시키는 경우가 많으므로 해당 모드를 사용함
 
-<br/>
 * Server mode(서버모드) : Application 서버 종료시에도 지속적으로 해당 데이터를 사용
 * 별도의 JVM을 이용하여 구동 (localhost:9092) - 영속적으로 사용할 수 있음
 * 여러 Application이 해당 H2에 동시 접근 가능
 * Application과는 TCP/IP 통신
-
 <br/>
->H2를 선택한 이유
+
+> H2를 선택한 이유
 * 가볍고 설치가 쉽고, 관리가 편하다
 * SQL로 여러 호환성 모드 지원이 가능하다
 
