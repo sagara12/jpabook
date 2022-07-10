@@ -57,3 +57,10 @@ JPA 기본 강의 관련 연습 프로젝트
 
 ## DB 설계
 >도메인 설계
+<img width="80%" src="https://user-images.githubusercontent.com/46039671/178140653-60c10e1a-ceee-4218-885d-fe0218e83e5b.png"/>
+
+>도메인 설계 상세
+<img width="80%" src="https://user-images.githubusercontent.com/46039671/178140645-3c93bae4-753e-498a-8749-b0002ce5fc4b.png"/>
+
+>테이블 설계
+<img width="80%" src="https://user-images.githubusercontent.com/46039671/178140654-8225d28e-8c5b-4a14-8ec6-6bfd735dc8ae.png"/>
