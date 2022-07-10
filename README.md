@@ -55,3 +55,5 @@ JPA 기본 강의 관련 연습 프로젝트
 * hibernate.show_sql, hibernate.format_sql, use_sql_comments: 콘솔 창에 JPA 쿼리를 깔끔하게 출력하기 위해 사용
 * hibernate.hbm2ddl.auto: 프로그램을 돌릴때 DDL을 어떻게 할지 셋팅 (clear로 입력할경우 기존 DB를 다 drop시키고 새로 만듬)
 
+## DB 설계
+>도메인 설계
