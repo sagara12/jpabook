@@ -3,8 +3,14 @@
 JPA 기본 강의 관련 연습 프로젝트
 <br/>
 
-## 사용 DB
+## Language
+<img src="https://img.shields.io/badge/Java-blue?style=flat-squar"/>
+
+## Technology
 <img src="https://img.shields.io/badge/H2-FFCA28?style=flat-squar"/>
+
+## IDEA
+<img src="https://img.shields.io/badge/IntelliJ IDEA-6A5FBB?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/>
 
 ## Maven을 이용한 JPA 세팅 (persistence.xml)
 
